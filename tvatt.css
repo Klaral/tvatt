@@ -200,5 +200,8 @@ tbody {
     
     
     
-    .g-signin2
+    .data {
+        display: none;
+        
+    }
 

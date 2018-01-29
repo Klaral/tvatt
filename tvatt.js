@@ -166,7 +166,15 @@ var divs = ["Menu1", "Menu2"];
 
 
 
+/***************** login *******************/
 
+function onSignIn(googleUser){
+    var progile=googleUser.getBasicProfile();
+    $(".g-signin2").css("display", "none");
+    $(".data").css("display","block");
+    $("#pic").attr('crs', profile.getImageUrl());
+    $("#email").text(profile.getEmail());
+}
 
 
 
