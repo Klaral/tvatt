@@ -3,7 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-signin-client_id" content="494203900520-h9h51n4c6hseh7ouig2lphb2veerlk3m.apps.googleusercontent.com">    
     <script src="tvatt.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="tvatt.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
@@ -45,8 +50,8 @@
         </script> 
     </div>    
        
-
-    <p class="loggainut">Loggin/Loggut</p>
+<div class="g-signin2" data-onsuccess="onSignIn">LogIn</div>
+    <!--<p class="loggainut">Loggin/Loggut</p>-->
 
        
    </header>   
